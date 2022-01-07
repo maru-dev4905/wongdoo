@@ -1,0 +1,235 @@
+#login{
+    background-color: #efefef;
+    height: 100vh;
+}
+#login main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+section{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+    position: relative;
+}
+.login-sec .container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 740px;
+    width: 624px;
+}
+.login-sec h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 200px;
+}
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#loginForm input{
+    width: 540px;
+    height: 68px;
+    margin: 0 auto;
+    border: 1px solid #898989;
+    margin-bottom: 25px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+#loginForm input::placeholder{
+    text-align: center;
+    font-size: 16px;
+    color: #898989;
+}
+#loginForm button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 68px;
+    background-color: #80ff80;
+}
+
+footer{
+    padding: 50px 0;
+    width: 100vw;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h1{
+    text-align: center;
+    font-family: "Noto Sans kr";
+    transform: scaleX(0.5);
+    color: #80ff80;
+    font-weight: 600;
+    letter-spacing: 25px;
+}
+footer p{
+    font-size: 14px;
+    padding-top: -25px;
+}
+
+.tab-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 200px;
+}
+.tab-menu li{
+    width: calc(100% / 3);
+}
+.tab-menu a{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #898989;
+    background-color: #efefef;
+    border-radius: 15px;
+}
+.tab-menu li.active a{
+    color: #000;
+    background-color: #80ff80;
+}
+.date-container{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2.5px solid #80ff80;
+    border-bottom: 2.5px solid #80ff80;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.date-container .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date-container .center button{
+    height: 16px;
+}
+.date-container p{
+    margin: 0 10px;
+}
+.date-container .center img{
+    width: 16px;
+    height: auto;
+}
+
+
+.fc-gray{
+    color: #898989;
+}
+
+select{
+    border: none;
+    background: none;
+
+}
+
+table{
+    width: 100%;
+}
+table thead{
+}
+table {
+    border-collapse: collapse;
+    font-size: 14px;
+}
+table .name{
+    width: 280px;
+    text-align: left;
+}
+table .id{
+    text-align: left;
+}
+table th,
+table td{
+    text-align: center;
+    min-width: 60px;
+}
+table tr{
+    height: 50px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+table input{
+    border: 1px solid #898989;
+    width: 90px;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+}
+table tr.last{
+    height: 60px;
+}
+table select{
+    width: 90px;
+    border-top: 2px solid #898989;
+    border-bottom: 0.5px solid #898989;
+}
+
+.save{
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #80ff80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+.guide{
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+.guide ul li{
+    display: flex;
+}
+.guide span{
+    width: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+.guide span img{
+    margin-right: 5px;
+}
+.guide .gray-style{
+    opacity: 0.5;
+}
+
+table .start{
+    min-width: 100px;
+}
+table thead th select{
+    border: none;
+    font-weight: 600;
+}
