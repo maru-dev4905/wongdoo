@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body id="i_01">
+<body id="i_02">
     <main>
         <section>
             <ul class="tab-menu">
@@ -19,12 +19,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="project.html">
                         PROJECT
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="team.html">
                         TEAMS
                     </a>
                 </li>
@@ -32,34 +32,103 @@
             <div class="date-container">
                 <ul>
                     <li>
-                        <th class="id">ID</th>
+                        <div class="id">ID</div>
                     </li>
                     <li>
-                        <th class="start">시작일</th>
+                        <div class="start">시작일</div>
                     </li>
                     <li>
-
+                        <div class="end">
+                            <select name="end" id="endSelect" >
+                                <option value="" selected disabled hidden>종료일</option>
+                                <option value="2021-02-01">2021-02-01</option>
+                                <option value="2021-02-01">2021-02-01</option>
+                                <option value="2021-02-01">2021-02-01</option>
+                                <option value="2021-02-01">2021-02-01</option>
+                            </select>
+                        </div>
                     </li>
                     <li>
-
+                        <div class="client">
+                            <select name="client" id="clientSelect">
+                                <option value="" selected disabled hidden>고객명</option>
+                                <option value="국립민속박물관">국립민속박물관</option>
+                                <option value="국립민속박물관">국립민속박물관</option>
+                                <option value="국립민속박물관">국립민속박물관</option>
+                                <option value="국립민속박물관">국립민속박물관</option>
+                            </select>
+                        </div>
                     </li>
                     <li>
-
+                        <div class="projectName">
+                            <select name="projectName" id="projectNameSelect">
+                                <option value="" selected disabled hidden>프로젝트명</option>
+                                <option value="2021 한국민속대사전 제작 용역">2021 한국민속대사전 제작 용역</option>
+                                <option value="2021 한국민속대사전 제작 용역">2021 한국민속대사전 제작 용역</option>
+                                <option value="2021 한국민속대사전 제작 용역">2021 한국민속대사전 제작 용역</option>
+                                <option value="2021 한국민속대사전 제작 용역">2021 한국민속대사전 제작 용역</option>
+                            </select>
+                        </div>
                     </li>
                     <li>
-
+                        <div class="state">
+                            <select name="state" id="stateSelect">
+                                <option value="" selected disabled hidden>상태</option>
+                                <option value="대기">대기</option>
+                                <option value="진행중">진행중</option>
+                                <option value="중단">중단</option>
+                                <option value="취소">취소</option>
+                                <option value="완료">완료</option>
+                            </select>
+                        </div>
                     </li>
                     <li>
-
+                        <div class="ae">
+                            <select name="ae" id="aeSelect">
+                                <option value="" selected disabled hidden>AE</option>
+                                <option value="문소라">문소라</option>
+                                <option value="문소라">문소라</option>
+                                <option value="문소라">문소라</option>
+                                <option value="문소라">문소라</option>
+                                <option value="문소라">문소라</option>
+                            </select>
+                        </div>
                     </li>
                     <li>
-
+                        <div class="pm">
+                            <select name="pm" id="pmSelect">
+                                <option value="" selected disabled hidden>PM</option>
+                                <option value="이명수">이명수</option>
+                                <option value="이명수">이명수</option>
+                                <option value="이명수">이명수</option>
+                                <option value="이명수">이명수</option>
+                                <option value="이명수">이명수</option>
+                            </select>
+                        </div>
                     </li>
                     <li>
-
+                        <div class="team">
+                            <select name="team" id="teamSelect">
+                                <option value="" selected disabled hidden>참여자</option>
+                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
+                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
+                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
+                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
+                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
+                            </select>
+                        </div>
                     </li>
                     <li>
-
+                        <div class="pay">
+                            <select name="pay" id="paySelect">
+                                <option value="" selected disabled hidden>계약금액</option>
+                                <option value="9,999,999,999">9,999,999,999</option>
+                                <option value="9,999,999,999">9,999,999,999</option>
+                                <option value="9,999,999,999">9,999,999,999</option>
+                                <option value="9,999,999,999">9,999,999,999</option>
+                                <option value="9,999,999,999">9,999,999,999</option>
+                            </select>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -75,6 +144,7 @@
                             진행중
                         </span>
                         <span>
+                            <img src="./images/icons/ico05.png" alt="ico">
                             중단
                         </span>
                         <span>
@@ -96,6 +166,7 @@
                             진행중
                         </span>
                         <span>
+                            <img src="./images/icons/ico05.png" alt="ico">
                             중단
                         </span>
                         <span>
@@ -110,91 +181,8 @@
                 </ul>
             </div>
             <table>
-                <thead>
-                    <tr>
-                        <th class="id">ID</th>
-                        <th class="start">시작일</th>
-                        <th class="end">
-                            <select name="end" id="endSelect" >
-                                <option value="" selected disabled hidden>종료일</option>
-                                <option value="2021-02-01">2021-02-01</option>
-                                <option value="2021-02-01">2021-02-01</option>
-                                <option value="2021-02-01">2021-02-01</option>
-                                <option value="2021-02-01">2021-02-01</option>
-                            </select>
-                        </th>
-                        <th class="client">
-                            <select name="client" id="clientSelect">
-                                <option value="" selected disabled hidden>고객명</option>
-                                <option value="국립민속박물관">국립민속박물관</option>
-                                <option value="국립민속박물관">국립민속박물관</option>
-                                <option value="국립민속박물관">국립민속박물관</option>
-                                <option value="국립민속박물관">국립민속박물관</option>
-                            </select>
-                        </th>
-                        <th class="projectName">
-                            <select name="projectName" id="projectNameSelect">
-                                <option value="" selected disabled hidden>프로젝트명</option>
-                                <option value="2021 한국민속대사전 제작 용역">2021 한국민속대사전 제작 용역</option>
-                                <option value="2021 한국민속대사전 제작 용역">2021 한국민속대사전 제작 용역</option>
-                                <option value="2021 한국민속대사전 제작 용역">2021 한국민속대사전 제작 용역</option>
-                                <option value="2021 한국민속대사전 제작 용역">2021 한국민속대사전 제작 용역</option>
-                            </select>
-                        </th>
-                        <th class="state">
-                            <select name="state" id="stateSelect">
-                                <option value="" selected disabled hidden>상태</option>
-                                <option value="대기">대기</option>
-                                <option value="진행중">진행중</option>
-                                <option value="중단">중단</option>
-                                <option value="취소">취소</option>
-                                <option value="완료">완료</option>
-                            </select>
-                        </th>
-                        <th class="ae">
-                            <select name="ae" id="aeSelect">
-                                <option value="" selected disabled hidden>AE</option>
-                                <option value="문소라">문소라</option>
-                                <option value="문소라">문소라</option>
-                                <option value="문소라">문소라</option>
-                                <option value="문소라">문소라</option>
-                                <option value="문소라">문소라</option>
-                            </select>
-                        </th>
-                        <th class="pm">
-                            <select name="pm" id="pmSelect">
-                                <option value="" selected disabled hidden>PM</option>
-                                <option value="이명수">이명수</option>
-                                <option value="이명수">이명수</option>
-                                <option value="이명수">이명수</option>
-                                <option value="이명수">이명수</option>
-                                <option value="이명수">이명수</option>
-                            </select>
-                        </th>
-                        <th class="team">
-                            <select name="team" id="teamSelect">
-                                <option value="" selected disabled hidden>참여자</option>
-                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
-                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
-                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
-                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
-                                <option value="김트로, 최트로, 박트로, 김프로, 임트로">김트로, 최트로, 박트로, 김프로, 임트로</option>
-                            </select>
-                        </th>
-                        <th class="pay">
-                            <select name="pay" id="paySelect">
-                                <option value="" selected disabled hidden>계약금액</option>
-                                <option value="9,999,999,999">9,999,999,999</option>
-                                <option value="9,999,999,999">9,999,999,999</option>
-                                <option value="9,999,999,999">9,999,999,999</option>
-                                <option value="9,999,999,999">9,999,999,999</option>
-                                <option value="9,999,999,999">9,999,999,999</option>
-                            </select>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
-                    <tr>
+                    <tr class="black-style">
                         <td class="id">001</td>
                         <td class="start">
                             2021-02-01
@@ -225,8 +213,222 @@
                             9,999,999,999
                         </td>
                     </tr>
+                    <tr class="gray-style">
+                        <td class="id">002</td>
+                        <td class="start">
+                            2021-02-01
+                        </td>
+                        <td class="end">
+                            2021-12-01
+                        </td>
+                        <td class="client">
+                            국립민속박물관
+                        </td>
+                        <td class="projectName">
+                            2021 한국민속대사전 제작 용역
+                        </td>
+                        <td class="state">
+                            <img src="./images/icons/ico04.png" alt="">
+                            완료
+                        </td>
+                        <td class="ae">
+                        </td>
+                        <td class="pm">
+                        </td>
+                        <td class="team">
+                        </td>
+                        <td class="pay">
+                        </td>
+                    </tr>
+                    <tr class="gray-style">
+                        <td class="id">003</td>
+                        <td class="start">
+                            2021-02-01
+                        </td>
+                        <td class="end">
+                            2021-12-01
+                        </td>
+                        <td class="client">
+                            국립민속박물관
+                        </td>
+                        <td class="projectName">
+                            2021 한국민속대사전 제작 용역
+                        </td>
+                        <td class="state">
+                            <img src="./images/icons/ico01.png" alt="">
+                            대기
+                        </td>
+                        <td class="ae">
+                        </td>
+                        <td class="pm">
+                        </td>
+                        <td class="team">
+                        </td>
+                        <td class="pay">
+                        </td>
+                    </tr>
+                    <tr class="gray-style">
+                        <td class="id">004</td>
+                        <td class="start">
+                            2021-02-01
+                        </td>
+                        <td class="end">
+                            2021-12-01
+                        </td>
+                        <td class="client">
+                            국립민속박물관
+                        </td>
+                        <td class="projectName">
+                            2021 한국민속대사전 제작 용역
+                        </td>
+                        <td class="state">
+                            <img src="./images/icons/ico05.png" alt="">
+                            중단
+                        </td>
+                        <td class="ae">
+                        </td>
+                        <td class="pm">
+                        </td>
+                        <td class="team">
+                        </td>
+                        <td class="pay">
+                        </td>
+                    </tr>
+                    <tr class="gray-style">
+                        <td class="id">005</td>
+                        <td class="start">
+                            2021-02-01
+                        </td>
+                        <td class="end">
+                            2021-12-01
+                        </td>
+                        <td class="client">
+                            국립민속박물관
+                        </td>
+                        <td class="projectName">
+                            2021 한국민속대사전 제작 용역
+                        </td>
+                        <td class="state">
+                            <img src="./images/icons/ico03.png" alt="">
+                            취소
+                        </td>
+                        <td class="ae">
+                        </td>
+                        <td class="pm">
+                        </td>
+                        <td class="team">
+                        </td>
+                        <td class="pay">
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td class="id">006</td>
+                        <td class="start">
+                            2021-02-01
+                        </td>
+                        <td class="end">
+                            2021-12-01
+                        </td>
+                        <td class="client">
+                            국립민속박물관
+                        </td>
+                        <td class="projectName">
+                            2021 한국민속대사전 제작 용역
+                        </td>
+                        <td class="state">
+                            <img src="./images/icons/ico02.png" alt="">
+                            진행중
+                        </td>
+                        <td class="ae">
+                        </td>
+                        <td class="pm">
+                        </td>
+                        <td class="team">
+                        </td>
+                        <td class="pay">
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td class="id">006</td>
+                        <td class="start">
+                            2021-02-01
+                        </td>
+                        <td class="end">
+                            2021-12-01
+                        </td>
+                        <td class="client">
+                            국립민속박물관
+                        </td>
+                        <td class="projectName">
+                            2021 한국민속대사전 제작 용역
+                        </td>
+                        <td class="state">
+                            <img src="./images/icons/ico02.png" alt="">
+                            진행중
+                        </td>
+                        <td class="ae">
+                        </td>
+                        <td class="pm">
+                        </td>
+                        <td class="team">
+                        </td>
+                        <td class="pay">
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td class="id">006</td>
+                        <td class="start">
+                            2021-02-01
+                        </td>
+                        <td class="end">
+                            2021-12-01
+                        </td>
+                        <td class="client">
+                            일이삼사오육칠팔구십일이삼
+                        </td>
+                        <td class="projectName">
+                            2021 한국민속대사전 제작 용역 어업편 2
+                        </td>
+                        <td class="state">
+                            <img src="./images/icons/ico02.png" alt="">
+                            진행중
+                        </td>
+                        <td class="ae">
+                        </td>
+                        <td class="pm">
+                        </td>
+                        <td class="team">
+                        </td>
+                        <td class="pay">
+                        </td>
+                    </tr>
                 </tbody>
             </table>
+            <button class="plus">
+
+            </button>
+            <div class="pagination">
+                <ul>
+                    <li>
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">6</a>
+                    </li>
+                </ul>
+            </div>
             <button class="save">
                 Save
             </button>

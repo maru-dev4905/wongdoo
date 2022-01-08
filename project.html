@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="project">
+    <main>
+        <section>
+            <ul class="tab-menu">
+                <li>
+                    <a href="i_01.html">
+                        i
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="project.html">
+                        PROJECT
+                    </a>
+                </li>
+                <li>
+                    <a href="team.html">
+                        TEAMS
+                    </a>
+                </li>
+            </ul>
+            <div class="date-container">
+                <ul>
+                    <li>
+                        <div class="number">
+                            No. 
+                            <span>001</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="projectName">
+                            프로젝트명 : 
+                            <span>2021한국민속</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="client">
+                            기관명 : 
+                            <span>국립민속박물관</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="guide">
+                <ul>
+                    <li class="black-style">
+                        <span>
+                            <img src="./images/icons/ico01.png" alt="ico">
+                            대기
+                        </span>
+                        <span class="active">
+                            <img src="./images/icons/ico02.png" alt="ico">
+                            진행중
+                        </span>
+                        <span>
+                            <img src="./images/icons/ico05.png" alt="ico">
+                            중단
+                        </span>
+                        <span>
+                            <img src="./images/icons/ico03.png" alt="ico">
+                            취소
+                        </span>
+                        <span>
+                            <img src="./images/icons/ico04.png" alt="ico">
+                            완료
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            
+            <form action="#" method="post" id="projectForm">
+                <article class="project-art01">
+                    <div class="left">
+                        <ul>
+                            <li>
+                                <img src="./images/icons/ico-calendar.png" alt="calendar">
+                                <em>착수일 | </em>
+                                <span>2021-00-00</span>
+                            </li>
+                            <li>
+                                <img src="./images/icons/ico-calendar.png" alt="calendar">
+                                <em>완료일 | </em>
+                                <span>2021-00-00</span>
+                            </li>
+                            <li>
+                                <img src="./images/icons/ico-calendar.png" alt="calendar">
+                                <em>납품일 | </em>
+                                <span>2021-00-00</span>
+                            </li>
+                            <li>
+                                <img src="./images/icons/ico-calendar.png" alt="calendar">
+                                <em>계산서 | </em>
+                                <span>2021-00-00</span>
+                            </li>
+                            <li>
+                                <img src="./images/icons/ico-calendar.png" alt="calendar">
+                                <em>입금일 | </em>
+                                <span>2021-00-00</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <div class="col">
+                            <span>과업내용</span>
+                            <textarea name="taskTextarea" id="taskTextarea"></textarea>
+                        </div>
+                        <div class="col">
+                            <span>제작내용</span>
+                            <textarea name="devTextarea" id="devTextarea"></textarea>
+                        </div>
+                        <div class="col">
+                            <span>특이사항</span>
+                            <textarea name="speicalNote" id="speicalNote"></textarea>
+                        </div>
+                        <div class="col">
+                            <span>제작사</span>
+                            <textarea name="companyTextarea" id="companyTextarea"></textarea>
+                        </div>
+                    </div>
+                </article>
+                
+                <div class="top bt-dash top01">
+                    <span>담당자</span>
+                    <span>담당자 리뷰 (메모)</span>
+                </div>
+                <article class="project-art02">
+                    <div class="left">
+                        <div class="col">
+                            <span>AE</span>
+                            <select name="am" id="aeSelect">
+                                <option value="김트로">김트로</option>
+                                <option value="김트로">김트로</option>
+                                <option value="김트로">김트로</option>
+                                <option value="김트로">김트로</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <span>PM</span>
+                            <select name="pm" id="pmSelect">
+                                <option value="최트로">최트로</option>
+                                <option value="최트로">최트로</option>
+                                <option value="최트로">최트로</option>
+                                <option value="최트로">최트로</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <span>작업자</span>
+                            <select name="Worker" id="workerSelect">
+                                <option value="박트로, 강트로">박트로, 강트로</option>
+                                <option value="박트로, 강트로">박트로, 강트로</option>
+                                <option value="박트로, 강트로">박트로, 강트로</option>
+                                <option value="박트로, 강트로">박트로, 강트로</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <span>고객명</span>
+                            <textarea  id="clientNameInput"></textarea>
+                        </div>
+                        <div class="col">
+                            <span>외주</span>
+                            <textarea  id="outsourcingInput"></textarea>
+                        </div>
+                        <div class="col">
+                            <span>제작</span>
+                            <textarea id="makingInput"></textarea>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="col">
+                            <textarea id="aeSelectText"></textarea>
+                        </div>
+                        <div class="col">
+                            <textarea id="pmSelectText"></textarea>
+                        </div>
+                        <div class="col">
+                            <textarea id="workerSelectText"></textarea>
+                        </div>
+                        <div class="col">
+                            <textarea id="clientNameText"></textarea>
+                        </div>
+                        <div class="col">
+                            <textarea id="outsourcingText"></textarea>
+                        </div>
+                        <div class="col">
+                            <textarea id="makingText"></textarea>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-art03">
+                    <div class="col">
+                        <div class="left">
+                            <span>사업예산</span>
+                            <input type="number" class="companyBudget-input">
+                            <input type="checkbox" id="separateCheckbox">
+                            <label for="separateCheckbox">세별도</label>
+                        </div>
+                        <div class="right">
+                            <span>예산메모</span>
+                            <input type="number" class="companyBudgetMemo-input">
+                        </div>
+                    </div>
+                </article>
+                <article class="project-art04">
+                    <div class="top">
+                        <span>소요비용</span>
+                    </div>
+                    <div class="top2">
+                        <span>정산내역</span>
+                        <span>외주내역</span>
+                    </div>
+                    <div class="flex">
+                        <div class="left">
+                            <div class="col">
+                                <span>인쇄제작</span>
+                                <textarea id="pay1"></textarea>
+                                <input type="number">
+                            </div>
+                            <div class="col">
+                                <span>기타제작</span>
+                                <textarea id="pay2"></textarea>
+                                <input type="number">
+                            </div>
+                            <div class="col">
+                                <span>인건비</span>
+                                <textarea id="pay3"></textarea>
+                                <input type="number">
+                            </div>
+                            <div class="col">
+                                <span>외주비</span>
+                                <textarea id="pay4"></textarea>
+                                <input type="number">
+                            </div>
+                            <div class="col">
+                                <span>운영비</span>
+                                <textarea id="pay5"></textarea>
+                                <input type="number">
+                            </div>
+                            <div class="col">
+                                <span>구매</span>
+                                <textarea id="pay6"></textarea>
+                                <input type="number">
+                            </div>
+                            <div class="col">
+                                <span>기타</span>
+                                <textarea id="pay7"></textarea>
+                                <input type="number">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="right-inner1">
+                                <span>인쇄제작</span>
+                                <div class="col">
+                                    <textarea id="pay1-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay2-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay3-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay4-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay5-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay6-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay7-in"></textarea>
+                                    <input type="number">
+                                </div>
+                            </div>
+                            <div class="right-inner2">
+                                <span>외주</span>
+                                <div class="col">
+                                    <textarea id="pay1-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay2-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay3-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay4-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay5-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay6-in"></textarea>
+                                    <input type="number">
+                                </div>
+                                <div class="col">
+                                    <textarea id="pay7-in"></textarea>
+                                    <input type="number">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-art05">
+                    <div class="left">
+                        <div class="col">
+                            <span>계(제조원가)</span>
+                            <textarea id="allPayTextarea"></textarea>
+                            <input type="number">
+                            <span>제작비 + 외주 + 인건비</span>
+                        </div>
+                        <div class="col">
+                            <span>수익</span>
+                            <textarea id="allPayTextarea"></textarea>
+                            <input type="number">
+                            <span>예산 - 제조원가</span>
+                        </div>
+                    </div>
+                    <button class="save" type="submit">
+                        Save
+                    </button>
+                </article>
+                <article class="project-art06">
+                    <div class="top">
+                        <span class="name">성명</span>
+                        <span class="md">M/D</span>
+                        <span class="date">기간</span>
+                    </div>
+                    <div class="content">
+
+                    </div>
+                </article>
+                <article class="project-art07">
+                    <div class="top">
+                        <span>사업종료 확인</span>
+                    </div>
+                    <div class="checkbox-group">
+                        <input name="check-input" type="checkbox" id="check1">
+                        <label for="check1">백업확인</label>
+                        <input name="check-input" type="checkbox" id="check2">
+                        <label for="check2">서체확인</label>
+                        <input name="check-input" type="checkbox" id="check3">
+                        <label for="check3">보고일</label>
+                        <input name="check-input" type="checkbox" id="check4">
+                        <label for="check4">AE</label>
+                        <input name="check-input" type="checkbox" id="check5">
+                        <label for="check5">회계</label>
+                    </div>
+                </article>
+            </form>
+            <form action="#" method="post" id="projectForm2">
+                <article class="project-art08">
+                    <span class="date">
+                        2021-08-22
+                    </span>
+                    <span class="time">
+                        00:00
+                    </span>
+                    <span class="name">
+                        김메모
+                    </span>
+                    <input type="text">
+                </article>
+                
+                <button class="save" type="submit">
+                    Save
+                </button>
+                <button class="plus">
+    
+                </button>
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>
